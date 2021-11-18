@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  position: sticky;
+  width: 100%;
+  height: 2rem;
+  background-color: #e43737;
+}
+
+.left {
+  position: relative;
+  justify-self: left;
+}
+
+.right {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info {
+  background-image: url(./sackboy.png);
+  height: 1.5rem;
+  width: 1.5rem;
+  background-size: 100%;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.nav-logo {
+  margin: 0;
+  display: flex;
+  justify-self: left;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  color: #fff;
+  font-size: 25px;
+}
+
+.nav-button {
+  margin: 5px;
+  padding: 3px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 99, 71, 0.609);
+}
+
+.menubar {
+  width: 100%;
+  height: 2rem;
+  background-color: tomato;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.menu-button {
+  border: none;
+  margin: 5px;
+  padding: 3px;
+  background-color: indianred;
+  position: relative;
+}
+
+.view-bar {
+  display: flex;
+}
+
+.view-bar > button {
+  border: none;
+  margin: 5px;
+  padding: 3px;
+  background-color: indianred;
+  position: relative;
+}
+
+.view {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.explorer {
+  margin: 0;
+  width: 20%;
+  height: 90vh;
+  justify-content: center;
+  /* position: absolute; */
+}
+
+.divider {
+  width: 1px;
+  height: 90vh;
+  background-color: gray;
+  left: 20%;
+}
+
+.filter-button {
+  position: relative;
+  display: flex;
+}
+
+.explorer-folder {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: ghostwhite;
+}
+
+.new-folder {
+  width: 14rem;
+  height: 2rem;
+  margin: 1rem;
+  border: none;
+  font-size: 20px;
+  color: rgb(26, 177, 177);
+  background-color: #c5c1c1;
+}
+
+.folders {
+  margin: 0;
+  width: 100%;
+  height: 1.5rem;
+  border: none;
+  font-size: 15px;
+  background-color: ghostwhite;
+  text-align-last: left;
+  padding-left: 3rem;
+}
+
+.folders:hover {
+  background-color: darkgrey;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.table {
+  width: 100%;
+  margin: 4rem;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.emp-table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+th {
+  background-color: darkgrey;
+}
+
+td {
+  background-color: gainsboro;
+}
+
+tr > div {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: rgb(26, 177, 177);
+}
